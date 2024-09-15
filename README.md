@@ -13,6 +13,8 @@
 
 - **CSS**
 
+- **JavaScript**
+
 - **React**
 
 - **Service**
