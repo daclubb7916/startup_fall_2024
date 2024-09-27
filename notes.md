@@ -45,3 +45,8 @@ git branch "name" = creates a new branch
 3. Commmit the changes (git commit)
 4. Push the changes to GitHub (git push)
 ```
+
+## Notes on your Server
+URL - http://18.235.63.214
+
+SSH into server - `ssh -i ~/.ssh/production.pem ubuntu@18.235.63.214`
