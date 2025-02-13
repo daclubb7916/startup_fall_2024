@@ -10,6 +10,7 @@ It's a Saturday night, all of your assignments are completed and you just finish
 - Secure login over HTTPS
 - Location Services to determine the user's area
 - List of Popular events in the area, # of users attending, and the capability to save these events for later
+- Weather forecast around the date/area of an event
 - The capability to access your saved events
 - The capability to add events to the public list
 ### Technologies
@@ -17,19 +18,18 @@ It's a Saturday night, all of your assignments are completed and you just finish
 
 - **CSS** - Application styling that looks good on different screen sizes, uses good whitespace, color choice and contrast.
 
-- **JavaScript** - Provides login, interactions with events, creates new event objects, counts user attendance.
-
-- **React** - Reactivity to user inputs, components, routes user experience.
+- **React** - Provides login, displays events, user interaction with events, event creation, routes user experience.
 
 - **Service** - Backend service with endpoints for:
-    - login
+    - register, login, and logout users
     - obtaining locations
     - accessing weather during upcoming events
     - rating events due to popularity
+    - creating new event objects
 
 - **DB/Login** - Store users, public events, a user's saved events, # of users planning on attending an event. Register and login users, credentials securely stored in database.
 
-- **WebSocket** - Realtime updates on new events, users planning to attend.
+- **WebSocket** - Realtime updates on new events, weather forecasts, users planning to attend.
 
 ## Class Notes
 
